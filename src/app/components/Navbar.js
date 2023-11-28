@@ -28,11 +28,11 @@ export default function Navbar() {
                 <Link href="https://rules.calicocountyrp.com/">
                   <li className='ml-10 uppercase hover:border-b text-xl'>Rules</li>
                 </Link>
-                <Link href="/faq">
-                  <li className='ml-10 uppercase hover:border-b text-xl'>F.A.Q</li>
-                </Link>
                 <Link href="/keybinds">
                   <li className='ml-10 uppercase hover:border-b text-xl'>Keybinds</li>
+                </Link>
+                <Link href="https://core.calicocountyrp.com">
+                  <li className='ml-10 uppercase hover:border-b text-xl'>Core</li>
                 </Link>
               </ul>
             </div>
