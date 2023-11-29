@@ -6,3 +6,41 @@
     height: 100%;
     object-fit: cover;
   }
+
+.Keybinds {
+  color: #ffff;
+  background-color:#0000006e;
+}
+
+.Keybinds h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Playfair Display';
+}
+
+#tablecontainer {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffff;
+}
+
+#keytable table {
+  width: 115%;
+  height: 10px;
+  float: left;
+  padding: 5px;
+}
+
+#commandtable table {
+  width: 115%;
+  height: 10px;
+  float: left;
+  padding: 5px;
+}
+
+#phrasetable table {
+  width: 115%;
+  height: 10px;
+  float: left;
+  padding: 5px;
+}

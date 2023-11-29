@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import styles from './styles.css';
 
+
 // components
 import Navbar from './components/Navbar'
 
@@ -15,6 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) { //children prop = whatever is being wrapped. (In this case, the page that is being viewed)
   return (
     <html lang="en">
+      <header>
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+      </header>
       <body className={inter.className}>
         <video 
           src={require("/public/background.mp4")}

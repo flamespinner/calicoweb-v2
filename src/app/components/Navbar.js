@@ -10,10 +10,10 @@ export default function Navbar() {
             <Link href="/">
               <Image
                 className="relative"
-                src="/calicologo.png"
+                src="/cclogomark.png"
                 alt="Calico Logo"
-                width={175}
-                height={300}
+                width={85}
+                height={85}
                 priority
               />
             </Link>
@@ -31,9 +31,9 @@ export default function Navbar() {
                 <Link href="/keybinds">
                   <li className='ml-10 uppercase hover:border-b text-xl'>Keybinds</li>
                 </Link>
-                <Link href="https://core.calicocountyrp.com">
+{/*                 <Link href="https://core.calicocountyrp.com">
                   <li className='ml-10 uppercase hover:border-b text-xl'>Core</li>
-                </Link>
+                </Link> */}
               </ul>
             </div>
           </div>
