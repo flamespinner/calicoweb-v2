@@ -16,9 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) { //children prop = whatever is being wrapped. (In this case, the page that is being viewed)
   return (
     <html lang="en">
-      <header>
+{/*       <header>
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-      </header>
+      </header> */}
       <body className={inter.className}>
         <video 
           src={require("/public/background.mp4")}
