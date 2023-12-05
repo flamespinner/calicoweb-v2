@@ -6,7 +6,7 @@ export default function Home() {
       <div className="relative flex place-items-center after:absolute after:-z-20 after:h-[180px] after:w-[240px] z-[-1]">
         <Image
           className="relative"
-          src="/inkroll.png"
+          src="/InkRoll.png"
           alt="Welcome to Calico County"
           width={900}
           height={420.5}
