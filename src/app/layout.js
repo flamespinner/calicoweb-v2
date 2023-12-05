@@ -25,7 +25,8 @@ export default function RootLayout({ children }) { //children prop = whatever is
           autoPlay
           muted
           loop
-          className="absolute z-[-10] w-auto min-w-full min-h-full object-cover"
+          className="absolute z-[-10] w-full h-full object-cover"
+          /*className="absolute z-[-10] w-auto min-w-full min-h-full object-cover"*/
         />
         <Navbar />
         {children}
