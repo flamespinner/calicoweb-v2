@@ -1,5 +1,5 @@
 # Use the official Node.js image as the base  
-FROM node:21
+FROM node:21-alpine AS base
 
 # Set the working directory inside the container  
 WORKDIR /app  
@@ -12,6 +12,8 @@ RUN npm ci
 
 # Copy the app source code to the container  
 COPY . .  
+
+COPY --from=builter /app/public ./public
 
 # Build the Next.js app  
 RUN npm run build  
