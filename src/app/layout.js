@@ -21,7 +21,7 @@ export default function RootLayout({ children }) { //children prop = whatever is
       </header> */}
       <body className={inter.className}>
         <video 
-          src={require("/public/background.mp4")}
+          src="/background.mp4"
           autoPlay
           muted
           loop
