@@ -13,7 +13,7 @@ RUN npm ci
 # Copy the app source code to the container  
 COPY . .  
 
-COPY --from=builder /app/public ./public
+COPY /app/public ./public
 
 # Build the Next.js app  
 RUN npm run build  
