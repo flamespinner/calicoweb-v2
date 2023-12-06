@@ -1,10 +1,13 @@
+'use client'
 import Image from 'next/image'
 /* import styles from './page.module.css'
  */
 export default function Keybinds() {
   return (
-    <main className="flex min-h-screen flex-col items-left justify-between p-24">
-      <div className="px-6 py-5 text-left">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <iframe className="w-1/2 h-3/5" src="./criminalguidelines.pdf"></iframe>
+        
+      {/* <div className="px-6 py-5 text-left">
         <h1 className="mb-3 text-5xl font-bold ">Keybinds, Commands & Helpful Phrases</h1>
         <div className = "Keybinds">
           <div id="tablecontainer">
@@ -263,7 +266,7 @@ export default function Keybinds() {
           </div>
           <br />
         </div>
-      </div>
+      </div>*/}
     </main>
   )
 }

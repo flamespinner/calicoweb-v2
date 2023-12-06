@@ -4,11 +4,11 @@ import Accordion from '../components/accordion'
 export default function Aboutus() {
   return (
     <main className="flex min-h-screen flex-col items-left justify-between p-24">
-      <div className="px-[200px] py-20 text-left">
-        <h1 className="mb-4 text-5xl font-bold ">About Us</h1>
+      <div className="px-[200px] pt-[30px] pb-20 text-left">
+        <h1 className="text-4xl font-bold ">About Us</h1>
         <p>Calico County RP is a growing community centered around 1889 western roleplay through our RedM server. Our main goal is to build a community focused on having quality roleplay and positive interactions and experiences for both new and veteran RPers. We want to provide a place where players are provided the tools and support to be able to tell the story you want and to have fun doing so. At the base level, we want a server that is easy for newcomers to both RP and RedM alike to be able to learn and get their toes wet, a place where all feel welcome, and a county that has unique tools that allow players to tell the story they want to. </p>
         
-        <h1 className='mb-4 mt-10 text-5xl font-bold'>F.A.Q</h1>
+        <h1 className='mt-10 text-4xl font-bold'>F.A.Q</h1>
         <Accordion 
           title="What VOIP Service does Calico County use?"
           content="We use PMA-Voice for communications in county. No need for Teamspeak or Saltychat to talk to others in county" 
