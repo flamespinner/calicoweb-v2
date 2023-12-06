@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Keybinds() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <iframe className="w-1/2 h-3/5" src="./criminalguidelines.pdf"></iframe>
+        <iframe className="w-1/2 h-[100%]" src="./criminalguidelines.pdf"></iframe>
         
       {/* <div className="px-6 py-5 text-left">
         <h1 className="mb-3 text-5xl font-bold ">Keybinds, Commands & Helpful Phrases</h1>

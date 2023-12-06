@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 max-sm:p-7 max-sm:pt-20">
+    <main className="flex min-h-screen flex-col items-center p-24 max-sm:p-7 max-sm:pt-20 bg-black/20">
       <div className="relative flex place-items-center after:absolute after:-z-20 after:h-[180px] after:w-[240px] z-[-1]">
         <Image
           className="relative"
