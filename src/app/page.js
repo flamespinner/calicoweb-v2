@@ -21,7 +21,7 @@ export default function Home() {
         </svg>
       </button>
 
-      <div className="mb-32 grid lg:mb-0 lg:grid-cols-4 py-9">
+      <div className="mb-32 grid lg:mb-0 lg:grid-cols-4 py-9 sm:mb-0 sm:grid-cols-2 sm:py-9 md:mb-0 md:gird-cols-4 md:py-9">
         <a
           href="https://www.tiktok.com/@calicocountyrp"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
