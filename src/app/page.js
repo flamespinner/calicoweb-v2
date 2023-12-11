@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 max-sm:p-7 max-sm:pt-20 bg-black/20">
+    <main className="flex min-h-screen flex-col items-center p-24 max-sm:p-7 max-sm:pt-20 bg-black/20 z-[-1]">
       <div className="relative flex place-items-center after:absolute after:-z-20 after:h-[180px] after:w-[240px] z-[-1]">
         <Image
           className="relative"
@@ -21,69 +21,69 @@ export default function Home() {
         </svg>
       </button>
 
-      <div className="mb-32 grid lg:mb-0 lg:grid-cols-4 py-9 sm:mb-0 sm:grid-cols-2 sm:py-9 md:mb-0 md:gird-cols-4 md:py-9">
+      <div className="md:visable lg:visable sm:invisable mb-32 grid lg:mb-0 lg:grid-cols-4 py-9 md:mb-0 md:gird-cols-4 md:py-9">
         <a
-          href="https://www.tiktok.com/@calicocountyrp"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-          src="/TikTok-Social-Icon-Mono-White.svg"
-          alt="Welcome to Calico County"
-          width={30}
-          height={30}
-          priority
-        />
-        </a>
+            href="https://www.tiktok.com/@calicocountyrp"
+            className="group px-5 py-4 transition-colors hidden md:block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <Image
+            className="hidden md:block relative"
+            src="/TikTok-Social-Icon-Mono-White.svg"
+            alt="Welcome to Calico County"
+            width={30}
+            height={30}
+            priority
+          />
+          </a>
 
-        <a
-          href="https://discord.com/invite/calicocounty"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-          src="/discord-logo-white.c4634138.svg"
-          alt="Welcome to Calico County"
-          width={50}
-          height={50}
-          priority
-        />
-        </a>
+          <a
+            href="https://discord.com/invite/calicocounty"
+            className="group px-5 py-4 transition-colors hidden md:block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <Image
+            className="hidden md:block relative"
+            src="/discord-logo-white.c4634138.svg"
+            alt="Welcome to Calico County"
+            width={50}
+            height={50}
+            priority
+          />
+          </a>
 
-        <a
-          href="https://twitter.com/calicocountyrp"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-          src="/twitter-logo-white.23e6bb64.svg"
-          alt="Welcome to Calico County"
-          width={50}
-          height={50}
-          priority
-        />
-        </a>
+          <a
+            href="https://twitter.com/calicocountyrp"
+            className="group px-5 py-4 transition-colors hidden md:block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <Image
+            className="hidden md:block relative"
+            src="/twitter-logo-white.23e6bb64.svg"
+            alt="Welcome to Calico County"
+            width={50}
+            height={50}
+            priority
+          />
+          </a>
 
-        <a
-          href="https://www.twitch.tv/calicocountyrp"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
-          src="/TwitchGlitchWhite.svg"
-          alt="Welcome to Calico County"
-          width={35}
-          height={35}
-          priority
-        />
+          <a
+            href="https://www.twitch.tv/calicocountyrp"
+            className="group px-5 py-4 transition-colors hidden md:block"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <Image
+            className="hidden md:block relative"
+            src="/TwitchGlitchWhite.svg"
+            alt="Welcome to Calico County"
+            width={35}
+            height={35}
+            priority
+          />
         </a> 
       </div>
     </main>

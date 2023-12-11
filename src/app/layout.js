@@ -20,6 +20,7 @@ export default function RootLayout({ children }) { //children prop = whatever is
         <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       </header> */}
       <body className={inter.className}>
+      <Navbar />
         <video 
           src="/background.mp4"
           autoPlay
@@ -28,7 +29,6 @@ export default function RootLayout({ children }) { //children prop = whatever is
           className="absolute z-[-10] w-full h-full object-cover"
           /*className="absolute z-[-10] w-auto min-w-full min-h-full object-cover"*/
         />
-        <Navbar />
         {children}
       </body>
     </html>
